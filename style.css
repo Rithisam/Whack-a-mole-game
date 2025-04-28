@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Rubik+Vinyl&family=Sixtyfour&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sixtyfour", serif;
+    background: url(/images/background-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+#board{
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+   flex-wrap: wrap;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid green;
+    border-radius: 10px;
+}
+#board div{
+    width: 180px;
+    height: 180px;
+    background: url(/images/pipe.png);
+    background-size: cover;
+    background-position: center;
+}
+#board div img{
+    width: 100px;
+    height: 100px ;
+    padding-left: 40px;
+    padding-top: 12px;
+}
